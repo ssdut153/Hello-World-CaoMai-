@@ -12,11 +12,21 @@ body {
 div.container {
 	margin: 0 auto;
 }
+header h1 {
+	text-align: center;
+	color: #febb2c;
+}
 div.blessings {
 	width: 100%;
 	border: 1px solid black;
 	margin: 0 auto;
 	position: relative;
+}
+footer {
+	text-align: center;
+}
+footer a {
+	color: #febb2c;
 }
 @media (max-width: 640px) {
 	div.container {
