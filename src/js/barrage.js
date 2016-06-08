@@ -28,7 +28,7 @@ $(document).ready(function () {
 	$('form.addblessing').submit(function () {
 		var $this = $(this);
 		var blessing = $this.serialize();
-		if (blessing == '') {
+		if (blessing === '') {
 			return 0;
 		}
 	});

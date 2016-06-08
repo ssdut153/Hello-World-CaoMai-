@@ -13,7 +13,7 @@ div.barrage div.screen div.mask {
 	opacity: 0.5;
 	filter: alpha(opacity: 1);
 	z-index: 1;
-	overflow:hidden;
+	overflow: hidden;
 }
 div.barrage{
 	display: none;

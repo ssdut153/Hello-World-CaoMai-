@@ -1,2 +1,6 @@
-bower_components/
+archive
+dist
+node_modules
 .idea/
+src/img/
+test/

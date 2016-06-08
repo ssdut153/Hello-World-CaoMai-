@@ -1,0 +1,54 @@
+{
+  "name": "hello-world-caomai-",
+  "version": "1.0.0",
+  "author": "",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssdut153/Hello-World-CaoMai-.git"
+  },
+  "homepage": "https://github.com/ssdut153/Hello-World-CaoMai-#readme",
+  "description": "Hello world, I'm Cao Mai ! Floating Cao Mai is coming !",
+  "dependencies": {},
+  "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1",
+    "apache-server-configs": "^2.14.0",
+    "archiver": "^1.0.0",
+    "bootstrap": "^3.3.6",
+    "del": "^2.2.0",
+    "fs": "0.0.2",
+    "glob": "^7.0.3",
+    "graceful-fs": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-header": "^1.8.2",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "jquery": "^2.2.4",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "normalize.css": "^4.1.1",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp archive && mocha --reporter spec --timeout 5000"
+  },
+  "bugs": {
+    "url": "https://github.com/ssdut153/Hello-World-CaoMai-/issues"
+  },
+  "h5bp-configs": {
+    "directories": {
+      "archive": "archive",
+      "dist": "dist",
+      "src": "src",
+      "test": "test"
+    }
+  }
+}

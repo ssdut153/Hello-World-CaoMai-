@@ -6,3 +6,7 @@ This page show Cao Mai by turns.
 The coder is too lazy to write anything else.
 Have a good day~!
 Any questions please contact Cao Mai directly (1049111303@qq.com).
+
+## License
+
+The code is available under the [GPL-3.0 license](LICENSE.txt).
