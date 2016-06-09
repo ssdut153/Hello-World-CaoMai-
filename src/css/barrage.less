@@ -1,0 +1,31 @@
+.size () {
+  width: 100%;
+  height: 100%;
+}
+div.barrage {
+  display: none;
+  .size();
+}
+div.screen {
+  .size();
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div.mask {
+  position: relative;
+  .size();
+  background: #000;
+  opacity: 0.5;
+  z-index: 1;
+  overflow: hidden;
+  div {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    line-height: 40px;
+    z-index: 40;
+
+  }
+}
